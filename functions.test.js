@@ -13,6 +13,7 @@ describe('Math functions', () => {
     test("add", () => {
         expect(fns.add(3,2)).toBe(5)
         expect(fns.add(5,9)).toBe(14)
+        expect(fns.add(1,1)).not.toBe(1)
     })
     
     test("subtract", () => {
